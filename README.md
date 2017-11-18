@@ -4,7 +4,7 @@ An example Huffman encoder and decoder written in Java.
 The encoder can be used from the command line like:
 
 ```
-$ java -jar encoder.jar [path to file to be encoded] [number of bytes per block] [path to write out to] e.g.
+$ java -jar encoder.jar [path to file to be encoded] [1 <= number of bytes per block <= 4] [path to write out to] e.g.
 $ java -jar encoder.jar lorem.txt 1 lorem.hc
 ```
     
